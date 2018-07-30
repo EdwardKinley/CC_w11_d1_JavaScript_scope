@@ -243,6 +243,10 @@ const declareMurderer = function() {
 const verdict = declareMurderer();
 console.log(verdict);
 ```
+Prediction: Professor Plum
+Reason: Mrs Peacock trapped in 'let' block
+Result: correct
+
 
 ### Extensions
 
