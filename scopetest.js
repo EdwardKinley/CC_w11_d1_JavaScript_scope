@@ -1,13 +1,12 @@
-const murderer = 'Professor Plum';
-
-const changeMurderer = function() {
-  murderer = 'Mrs. Peacock';
-}
+let murderer = 'Professor Plum';
 
 const declareMurderer = function() {
+  let murderer = 'Mrs. Peacock';
   return `The murderer is ${murderer}.`;
 }
 
-changeMurderer();
-const verdict = declareMurderer();
-console.log(verdict);
+const firstVerdict = declareMurderer();
+console.log('First Verdict: ', firstVerdict);
+
+const secondVerdict = `The murderer is ${murderer}.`;
+console.log('Second Verdict: ', secondVerdict);

@@ -70,6 +70,10 @@ console.log('First Verdict: ', firstVerdict);
 const secondVerdict = `The murderer is ${murderer}.`;
 console.log('Second Verdict: ', secondVerdict);
 ```
+Prediction: 1st Mrs Peacock; 2nd Professor Plum
+Reason: 'let' is local (affects enclosing block)
+Result: correct
+
 
 #### Episode 4
 
