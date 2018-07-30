@@ -91,6 +91,10 @@ const suspects = declareAllSuspects();
 console.log(suspects);
 console.log(`Suspect three is ${suspectThree}.`);
 ```
+Prediction: 1st Scarlett, Plum, Mustard; 2nd Peacock
+Reason: 'let' is local (affects enclosing block)
+Result: correct
+
 
 #### Episode 5
 

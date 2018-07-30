@@ -1,12 +1,12 @@
-let murderer = 'Professor Plum';
+let suspectOne = 'Miss Scarlet';
+let suspectTwo = 'Professor Plum';
+let suspectThree = 'Mrs. Peacock';
 
-const declareMurderer = function() {
-  let murderer = 'Mrs. Peacock';
-  return `The murderer is ${murderer}.`;
+const declareAllSuspects = function() {
+  let suspectThree = 'Colonel Mustard';
+  return `The suspects are ${suspectOne}, ${suspectTwo}, ${suspectThree}.`;
 }
 
-const firstVerdict = declareMurderer();
-console.log('First Verdict: ', firstVerdict);
-
-const secondVerdict = `The murderer is ${murderer}.`;
-console.log('Second Verdict: ', secondVerdict);
+const suspects = declareAllSuspects();
+console.log(suspects);
+console.log(`Suspect three is ${suspectThree}.`);
