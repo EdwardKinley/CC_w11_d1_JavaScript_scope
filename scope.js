@@ -222,6 +222,10 @@ changeScenario();
 const verdict = declareWeapon();
 console.log(verdict);
 ```
+Prediction: candlestick
+Reason: no 'let's
+Result: correct
+
 
 #### Episode 9
 
