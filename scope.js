@@ -251,3 +251,37 @@ Result: correct
 ### Extensions
 
 Make up your own episode!
+
+
+#### Episode 10
+
+```js
+let murderer = 'Professor Plum';
+
+const changeMurderer = function() {
+  murderer = 'Rev. Green';
+
+  const plotTwist = function() {
+    var murderer = 'Colonel Mustard';
+
+    const unexpectedOutcome = function() {
+      murderer = 'Miss Scarlet';
+    }
+
+    unexpectedOutcome();
+  }
+
+  plotTwist();
+}
+
+const declareMurderer = function() {
+  return `The murderer is ${murderer}.`;
+}
+
+changeMurderer();
+const verdict = declareMurderer();
+console.log(verdict);
+```
+Prediction: Rev Green
+Reason: very similar to Episode 7 (uses var instead of let in plotTwist)
+Result: correct
