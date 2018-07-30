@@ -31,6 +31,7 @@ Prediction: Miss Scarlett
 Reason: 'return' is global
 Result: correct
 
+
 #### Episode 2
 
 ```js
@@ -48,6 +49,10 @@ changeMurderer();
 const verdict = declareMurderer();
 console.log(verdict);
 ```
+Prediction: Error
+Reason: murderer is const so can't be changed
+Result: correct (TypeError: Assignment to constant variable)
+
 
 #### Episode 3
 
