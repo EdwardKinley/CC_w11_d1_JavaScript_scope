@@ -179,6 +179,10 @@ changeMurderer();
 const verdict = declareMurderer();
 console.log(verdict);
 ```
+Prediction: Miss Scarlett
+Reason: unexpectedOutcome declaration is global (not restricted) but plotTwist uses 'let'
+Result: incorrect: it's 'Mr' Green
+
 
 #### Episode 8
 
