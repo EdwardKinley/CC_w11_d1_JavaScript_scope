@@ -145,6 +145,10 @@ changeMurderer();
 const verdict = declareMurderer();
 console.log(verdict);
 ```
+Prediction: Mrs White
+Reason: murderer is global (not restricted)
+Result: correct
+
 
 #### Episode 7
 
