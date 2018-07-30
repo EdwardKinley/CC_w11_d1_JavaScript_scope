@@ -117,6 +117,10 @@ changeWeapon('Revolver');
 const verdict = declareWeapon();
 console.log(verdict);
 ```
+Prediction: revolver
+Reason: scenario.weapon is global (not restricted)
+Result: correct
+
 
 #### Episode 6
 
